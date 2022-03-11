@@ -1,0 +1,39 @@
+.atgf_radio {
+  > label {
+    > span {
+      &::after {
+        background: #1890ff !important;
+      }
+      span {
+        border-radius: 0 !important;
+        width: 30px;
+        height: 34px;
+        border-radius: 0.25rem !important;
+        background: #e2e5ec;
+
+        &::after {
+          width: 9px !important;
+          height: 18px !important;
+          top: 40%;
+          left: 20%;
+          position: absolute;
+          display: table;
+          border: 2px solid #fff;
+          border-top: 0;
+          border-left: 0;
+          -webkit-transform: rotate(45deg) scale(1) translate(-50%, -50%) !important;
+          transform: rotate(45deg) scale(1) translate(-50%, -50%) !important;
+          opacity: 1;
+          -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s !important;
+          transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s !important;
+          content: ' ' !important;
+          border-radius: 0;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+  > input{
+   color: #000
+  }
+}

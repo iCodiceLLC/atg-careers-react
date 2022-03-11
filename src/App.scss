@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+	.sub_title {
+		font-weight: 1000;
+	}
+	.ant-form-vertical .ant-form-item-label > label {
+		height: auto;
+		font-size: 16px;
+		font-family: sans-serif;
+	}
+	.atg-btn {
+		&:hover {
+			background-color: #777;
+			color: white;
+		}
+		&:focus {
+			background-color: #555;
+			border: none;
+		}
+	}
+
+.atgf_radio {
+  > label {
+    > span {
+      &::after {
+        background: #1890ff !important;
+      }
+      span {
+        border-radius: 0 !important;
+        width: 30px;
+        height: 34px;
+        border-radius: 0.25rem !important;
+        background: #e2e5ec;
+        &::after {
+          width: 9px !important;
+          height: 18px !important;
+          top: 40%;
+          left: 20%;
+          position: absolute;
+          display: table;
+          border: 2px solid #fff;
+          border-top: 0;
+          border-left: 0;
+          opacity: 1;
+          content: ' ' !important;
+          border-radius: 0;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+.atgf_button {
+  width: 100%;
+  height: 40px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(231, 239, 246) !important;
+  padding: 9.75px 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+
+  &.atgf_btn_default {
+    background: #999;
+  }
+
+  &:hover {
+    border-color: transparent !important;
+  }
+}
+
+.atgf_button_large {
+  color: white;
+  background-color: rgb(34, 149, 255);
+  padding: 4px;
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  width: 100%;
+  border-radius: 3px;
+}
+.ant-radio-wrapper{
+  
+}
